@@ -1,2 +1,57 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+
+:root {
+     /* Main Colors */
+    --primaryColor: #6C7A61; /* Dark blue */
+    --secondaryColor: #5C345B; /* Light brown */ 
+
+    /* Background Colors */
+    --backgroundColor: #F2F0E4; /* White */
+    --secondaryBackgroundColor: #D8B9FF; /* Gray */
+    --tertiaryBackgroundColor:#D0DBC0; /* Light Gray */
+
+    /* Text Colors */
+    --textColor: #4A4A4A; /* Dark grey */
+    --navigationTextColor: white;  
+    --headingColor: #567682; /* Dusty blue */ 
+
+    /* Font Families */
+    --primaryFont: 'Roboto', sans-serif;
+
+    /* Font Sizes */
+    --fontSizeSmall: 0.875rem;  /* 14px */
+    --fontSizeNormal: 1rem;     /* 16px */
+    --fontSizeLarge: 1.25rem;   /* 20px */
+    --fontSizeHeading: 2.25rem; /* 36px */
+
+    /* Font Weights */
+    --fontWeightRegular: 400;
+    --fontWeightBold: 700;
+
+    /* Borders */
+    --border: 1px solid var(--textColor);
+    --borderSoft: 1px solid var(--secondaryBackgroundColor);
+
+    /* Outline */
+    --outline: 2px solid var(--primaryColor);
+}
+
+body {
+    background-color: var(--backgroundColor);
+}
+
+.btn-main {
+        background-color: #6C7A61;
+        color: white;
+        padding: 10px;
+        border-radius: 1em;
+}
+
+.btn-secondary {
+        background-color: var(--secondaryColor);
+        color: white;
+        padding: 10px;
+        border-radius: 1em;
+}
+
