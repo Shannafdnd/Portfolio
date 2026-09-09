@@ -18,7 +18,6 @@
     //     }
     // })
 </script>
-
 <div class="container" class:sticky={sticky} bind:this={container} class:alwaysSticky={alwaysSticky}>
     <nav>
         <div class="nav-items">
@@ -95,10 +94,10 @@
         transform: scale(1.4);
     }
 
-    a:hover {
+    /* a:hover {
         color: #6C7A61;
         transition: var(--hover);
-    }
+    } */
 
     @media only screen and (max-width: 860px) {
         .container {

@@ -7,9 +7,9 @@
     --secondaryColor: #5C345B; /* Light brown */ 
 
     /* Background Colors */
-    --backgroundColor: #F2F0E4; /* White */
-    --secondaryBackgroundColor: #D8B9FF; /* Gray */
-    --tertiaryBackgroundColor:#D0DBC0; /* Light Gray */
+    --bg-color-1: #D0DBC0; /*beige*/
+    --bg-color-2: #F2F0E4; /*light green*/
+    --bg-color-3: #D8B9FF; /*lilac*/
 
     /* Text Colors */
     --textColor: #4A4A4A; /* Dark grey */
@@ -38,7 +38,11 @@
 }
 
 body {
-    background-color: var(--backgroundColor);
+    background: url("$lib/assets/grid.png");
+    background-repeat: repeat;
+    background-size: 500px 500px;
+    background-color: var(--bg-color-1);
+    background-blend-mode: darken;
 }
 
 .btn-main {
